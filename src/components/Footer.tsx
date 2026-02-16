@@ -1,18 +1,43 @@
 import { Link } from "react-router-dom";
 import { Home, Info, Briefcase, Building2, Phone, Mail, MapPin, Clock, Heart, Facebook, Instagram } from "lucide-react";
-import logo from "@/assets/logo.jpeg";
+import logo from "@/assets/logo.png";
 
 const Footer = () => (
   <footer className="bg-primary text-primary-foreground">
     <div className="container-main section-padding">
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-10">
         {/* Logo & about */}
-        <div>
-          <img src={logo} alt="Viswasri Projects" className="h-14 w-auto mb-4 rounded bg-card p-1" />
-          <p className="text-sm opacity-80 leading-relaxed">
-            Building Land. Growing Wealth. Securing Futures. Premium plotted developments with Red Sandalwood plantations.
-          </p>
-        </div>
+        
+<div className="flex flex-col items-start gap-4">
+
+  {/* Logo container */}
+{/* Logo */}
+<div className="mb-5">
+  <div className="
+      inline-flex
+      items-center
+      justify-center
+      bg-white
+      rounded-2xl
+      px-6
+      py-4
+      shadow-md
+    ">
+    <img
+      src={logo}
+      alt="Viswasri Projects"
+      className="h-16 md:h-18 lg:h-20 w-auto object-contain"
+    />
+  </div>
+</div>
+
+
+  <p className="text-sm opacity-80 leading-relaxed max-w-sm">
+    Building Land. Growing Wealth. Securing Futures. Premium plotted
+    developments with Red Sandalwood plantations.
+  </p>
+</div>
+
 
         {/* Quick Links */}
         <div>
