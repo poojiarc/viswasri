@@ -100,27 +100,38 @@ const Footer = () => (
     </div>
 
     {/* Bottom bar */}
-    <div className="border-t border-primary-foreground/10">
-      <div className="container-main px-4 md:px-8 py-4 flex flex-col md:flex-row items-center justify-between gap-2 text-sm opacity-70">
-        <p>&copy; {new Date().getFullYear()} Viswasri Projects and Agro Farms. All rights reserved.</p>
-        <div className="flex justify-center items-center gap-1">
-          Made with <Heart className="inline h-4 w-4 text-destructive mx-1" /> by
-          <a
-            href="https://staffarc.in"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="flex items-center gap-1 text-gold hover:underline"
-          >
-            <img
-              src="https://www.staffarc.in/images/Staffarc-logo.png"
-              alt="StaffArc logo"
-              className="h-5 w-5 object-contain"
-            />
-            StaffArc
-          </a>
-        </div>
-      </div>
+{/* Bottom bar */}
+<div className="border-t border-primary-foreground/10">
+  <div className="container-main px-4 md:px-8 py-4 flex flex-col items-center gap-2 text-sm opacity-70 text-center">
+
+    {/* Made with line FIRST */}
+    <div className="flex justify-center items-center gap-1">
+      Made with
+      <Heart className="inline h-4 w-4 text-destructive mx-1" />
+      by
+      <a
+        href="https://staffarc.in"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="flex items-center gap-1 text-gold hover:underline ml-1"
+      >
+        <img
+          src="https://www.staffarc.in/images/Staffarc-logo.png"
+          alt="StaffArc logo"
+          className="h-5 w-5 object-contain"
+        />
+        StaffArc
+      </a>
     </div>
+
+    {/* Copyright BELOW */}
+    <p>
+      &copy; {new Date().getFullYear()} Viswasri Projects and Agro Farms. All rights reserved.
+    </p>
+
+  </div>
+</div>
+  
   </footer>
 );
 
