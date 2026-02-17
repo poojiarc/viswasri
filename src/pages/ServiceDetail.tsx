@@ -1,9 +1,9 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import service25 from "@/assets/Serv1.jpeg";
+import service25 from "@/assets/serv3.jpeg";
 import service50 from "@/assets/Serv2.jpeg";
-import service1acre from "@/assets/serv3.jpeg";
+import service1acre from "@/assets/Serv1.jpeg";
 
 import hero1 from "@/assets/Hero1.jpeg";
 import hero2 from "@/assets/Hero2.jpeg";

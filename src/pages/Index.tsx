@@ -7,9 +7,9 @@ import hero1 from "@/assets/Hero1.jpeg";
 import hero2 from "@/assets/Hero2.jpeg";
 import hero3 from "@/assets/Hero3.jpeg";
 
-import service25 from "@/assets/Serv1.jpeg";
+import service25 from "@/assets/serv3.jpeg";
 import service50 from "@/assets/Serv2.jpeg";
-import service1acre from "@/assets/serv3.jpeg";
+import service1acre from "@/assets/Serv1.jpeg";
 
 import devImg from "@/assets/dev1.jpeg";
 
