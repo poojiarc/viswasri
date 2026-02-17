@@ -3,13 +3,15 @@ import { Link } from "react-router-dom";
 import { ArrowRight, TreePine, Droplets, Shield, TrendingUp, Users, CheckCircle2 } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import AnimatedSection from "@/components/AnimatedSection";
-import hero1 from "@/assets/hero-1.jpg";
-import hero2 from "@/assets/hero-2.jpg";
-import hero3 from "@/assets/hero-3.jpg";
-import service25 from "@/assets/service-25cents-1.jpg";
-import service50 from "@/assets/service-50cents-1.jpg";
-import service1acre from "@/assets/service-1acre-1.jpg";
-import devImg from "@/assets/developments-1.jpg";
+import hero1 from "@/assets/Hero1.jpeg";
+import hero2 from "@/assets/Hero2.jpeg";
+import hero3 from "@/assets/Hero3.jpeg";
+
+import service25 from "@/assets/Serv1.jpeg";
+import service50 from "@/assets/Serv2.jpeg";
+import service1acre from "@/assets/serv3.jpeg";
+
+import devImg from "@/assets/dev1.jpeg";
 
 const heroImages = [hero1, hero2, hero3];
 

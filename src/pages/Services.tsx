@@ -1,9 +1,9 @@
 import { Link } from "react-router-dom";
 import { ArrowRight } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import service25 from "@/assets/service-25cents-1.jpg";
-import service50 from "@/assets/service-50cents-1.jpg";
-import service1acre from "@/assets/service-1acre-1.jpg";
+import service25 from "@/assets/Serv1.jpeg";
+import service50 from "@/assets/Serv2.jpeg";
+import service1acre from "@/assets/serv3.jpeg";
 
 const services = [
   {

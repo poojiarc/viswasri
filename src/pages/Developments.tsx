@@ -1,6 +1,7 @@
 import { FileCheck, TreePine, Droplets, Shield, Cctv, ShieldCheck } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import devImg from "@/assets/developments-1.jpg";
+import devImg from "@/assets/dev1.jpeg";
+
 
 const features = [
   { icon: FileCheck, title: "Clear Title & Link Documents", desc: "Every plot comes with verified, transparent legal documentation ensuring complete peace of mind." },

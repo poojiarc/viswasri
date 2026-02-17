@@ -1,12 +1,13 @@
 import { useParams, Link } from "react-router-dom";
 import { ArrowLeft } from "lucide-react";
 import AnimatedSection from "@/components/AnimatedSection";
-import service25 from "@/assets/service-25cents-1.jpg";
-import service50 from "@/assets/service-50cents-1.jpg";
-import service1acre from "@/assets/service-1acre-1.jpg";
-import hero1 from "@/assets/hero-1.jpg";
-import hero2 from "@/assets/hero-2.jpg";
-import hero3 from "@/assets/hero-3.jpg";
+import service25 from "@/assets/Serv1.jpeg";
+import service50 from "@/assets/Serv2.jpeg";
+import service1acre from "@/assets/serv3.jpeg";
+
+import hero1 from "@/assets/Hero1.jpeg";
+import hero2 from "@/assets/Hero2.jpeg";
+import hero3 from "@/assets/Hero3.jpeg";
 
 const data: Record<string, { title: string; desc: string; images: string[] }> = {
   "25-cents": {
