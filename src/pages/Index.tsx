@@ -1,6 +1,6 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
-import { ArrowRight, TreePine, Droplets, Shield, TrendingUp, Users, CheckCircle2 } from "lucide-react";
+import { ArrowRight, TreePine, Droplets, Shield, TrendingUp, Users, CheckCircle2, Cctv, ShieldCheck } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
 import AnimatedSection from "@/components/AnimatedSection";
 import hero1 from "@/assets/Hero1.jpeg";
@@ -26,8 +26,8 @@ const devFeatures = [
   { icon: TreePine, text: "Red Sandalwood Plants" },
   { icon: Droplets, text: "Drip Irrigation" },
   { icon: Shield, text: "Diamond Mesh Fencing" },
-  { icon: Shield, text: "CCTV Surveillance" },
-  { icon: Shield, text: "Advanced Security after 5 years" },
+  { icon: Cctv, text: "CCTV Surveillance" },
+  { icon: ShieldCheck, text: "Advanced Security after 5 years" },
 ];
 
 const whyChoose = [
@@ -118,7 +118,7 @@ const Index = () => {
           <AnimatedSection>
             <h2 className="text-3xl md:text-4xl font-display font-bold text-center mb-3">Our Services</h2>
             <p className="text-muted-foreground text-center mb-12 max-w-2xl mx-auto">
-              Choose from flexible plot sizes tailored to your investment goals.
+              We Provide flexible plot sizes tailored to your investment goals.
             </p>
           </AnimatedSection>
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
